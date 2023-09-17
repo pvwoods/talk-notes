@@ -100,7 +100,7 @@ $$
 The _Bayesian update distribtuion_ $p_U(\cdot \mid \theta, x;\thinspace \alpha)$ is then defined by marginilizing out $y$:
 
 $$
-p_U(\theta ' \mid \theta, x;\thinspace \alpha) = \underset{p_S(y \mid x ; \alpha)}{\mathbb{E}} \thickspace \delta ( \theta ' - h( \theta , y , \alpha ))
+p_U(\theta ' \mid \theta, x;\thinspace \alpha) = \underset{p_S(y \mid x ; \alpha)}{\mathbb{E}} \thinspace \delta ( \theta ' - h( \theta , y , \alpha ))
 $$
 
 Using Bayes' Rule to obtain the next estimate of $\theta$
@@ -114,7 +114,7 @@ _See Paper for full proof_
 Where $\delta ( \cdot - a)$ is the multivariate Dirac delta distribution centered on the vector $a$, in sections 4.4 and 6.7 we will prove that both forms of $p_U( \cdot \mid \thinspace \theta , x ; \alpha)$ considered in this paper have the following property: the accuracies are additive in the sense that if $\alpha = \alpha_a + \alpha_b$ then:
 
 $$
-p_U(\theta '' \mid \theta , x ; \alpha) = \underset{p_U(\theta ' \mid \theta , x ; \alpha_a)}{\mathbb{E}} \thickspace p_U(\theta '' \mid \theta ' , x ; \alpha_b)
+p_U(\theta '' \mid \theta , x ; \alpha) = \underset{p_U(\theta ' \mid \theta , x ; \alpha_a)}{\mathbb{E}} \thinspace p_U(\theta '' \mid \theta ' , x ; \alpha_b)
 $$
 
 ### Bayesian Flow Distribution
